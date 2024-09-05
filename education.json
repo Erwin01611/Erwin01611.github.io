@@ -1,0 +1,22 @@
+[
+  {
+    "degree": "M.Sc. International Business Administration",
+    "institution": "European University Viadrina Frankfurt (Oder), Germany",
+    "period": "April 2025 – August 2026",
+    "details": "Major: Data Science & Decision Support (DSDS)"
+  },
+  {
+    "degree": "B.Sc. International Business Administration",
+    "institution": "European University Viadrina Frankfurt (Oder), Germany",
+    "period": "October 2017 – January 2025",
+    "details": "Durchschnittsnote: 2.3",
+    "thesis": "Calendar Effects for Electricity Price Forecasts",
+    "thesisGrade": "2.7"
+  },
+  {
+    "degree": "B.Sc. International Business (Exchange)",
+    "institution": "Karlstad University, Sweden",
+    "period": "August 2019 – January 2020",
+    "details": ""
+  }
+]
