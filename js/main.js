@@ -52,23 +52,26 @@ async function loadEducation() {
   }
 }
 
-function loadSkills() {
-  const skills = [
-    "Data Analysis & Visualization",
-    "Machine Learning",
-    "SQL & Database Optimization",
-    "Python & R Programming",
-    "Power BI, Looker, Tableau",
-    "Excel/PowerPoint/Word",
-  ];
-  const skillList = document.querySelector(".skill-list");
-  skillList.innerHTML = skills
-    .map(
-      (skill) => `
-    <div class="skill-item">${skill}</div>
-  `
-    )
-    .join("");
+async function loadSkills() {
+  try {
+    const response = await fetch("skills.json");
+    const skills = await response.json();
+    const skillList = document.querySelector(".skill-list");
+    skillList.innerHTML = skills
+      .map(
+        (skill) => `
+        <div class="skill-item">
+          <div class="skill-name">${skill.name}</div>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: ${skill.level}%"></div>
+          </div>
+        </div>
+      `
+      )
+      .join("");
+  } catch (error) {
+    console.error("Error loading skills:", error);
+  }
 }
 
 function setWelcomeMessage() {

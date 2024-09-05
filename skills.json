@@ -1,0 +1,8 @@
+[
+  { "name": "Data Analysis & Visualization", "level": 90 },
+  { "name": "Machine Learning", "level": 85 },
+  { "name": "SQL & Database Optimization", "level": 80 },
+  { "name": "Python & R Programming", "level": 85 },
+  { "name": "Power BI, Looker, Tableau", "level": 75 },
+  { "name": "Excel/PowerPoint/Word", "level": 95 }
+]
