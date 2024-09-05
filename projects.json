@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Sentiment Analysis & Visualization",
+    "description": "Implemented web scraping for Amazon product reviews, conducted sentiment analysis using Microsoft Azure's Text Analytics API, and visualized insights for product strategy."
+  },
+  {
+    "title": "Client Default Risk Prediction",
+    "description": "Built a predictive model using Logistic Regression in R to assess client default risks, achieving a 20% reduction in false positives."
+  },
+  {
+    "title": "SQL Database Optimization",
+    "description": "Optimized an e-commerce SQL database using normalization techniques and indexing, reducing latency by 40%."
+  }
+]
